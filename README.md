@@ -186,7 +186,7 @@ HumanInTheLoop/
 
 ## 🎥 Demo Video
 
-*(Please include your recorded demo link here)*
+Video Link: https://www.loom.com/share/d9a1917d5b574a369887f659c71caebd
 
 ---
 
