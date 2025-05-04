@@ -17,7 +17,7 @@ A locally running system simulating a virtual AI receptionist. When the AI canno
 
    ```bash
    git clone https://github.com/saumya-jain20/frontdesk-human-in-the-loop.git
-   cd HumanInTheLoop
+   cd frontdesk-human-in-the-loop
    ```
 
 2. **Create a virtual environment (optional but recommended)**
@@ -30,7 +30,7 @@ A locally running system simulating a virtual AI receptionist. When the AI canno
 3. **Install dependencies**
 
    ```bash
-   pip install -r requirements.txt
+   pip install
    ```
 
 4. **Run the Supervisor Admin UI**
