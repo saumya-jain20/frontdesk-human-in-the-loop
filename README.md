@@ -16,7 +16,7 @@ A locally running system simulating a virtual AI receptionist. When the AI canno
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/saumya-jain20/frontdesk-human-in-the-loop
    cd HumanInTheLoop
    ```
 
