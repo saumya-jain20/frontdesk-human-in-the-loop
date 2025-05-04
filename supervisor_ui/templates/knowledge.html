@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Knowledge Base</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .entry {
+            margin-bottom: 15px;
+        }
+        .entry strong {
+            color: #007BFF;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 10px 0;
+        }
+        .nav {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Knowledge Base</h1>
+
+    {% for question, answer in kb.items() %}
+        <div class="entry">
+            <p><strong>{{ question }}</strong>: {{ answer }}</p>
+            <hr>
+        </div>
+    {% endfor %}
+
+    <div class="nav">
+        <a href="/">Back to Pending</a> |
+        <a href="/history">View All Requests</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Supervisor Panel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        b {
+            color: #007BFF;
+        }
+        input[type="text"] {
+            padding: 5px;
+            width: 300px;
+            margin-top: 5px;
+        }
+        button {
+            padding: 6px 12px;
+            margin-left: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 15px 0;
+        }
+        .nav {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pending Help Requests</h1>
+
+    {% for req in requests %}
+        <form action="/respond" method="POST">
+            <p><b>{{ req.question }}</b> from Customer {{ req.customer_id }}</p>
+            <input type="hidden" name="request_id" value="{{ req.id }}">
+            <input type="text" name="answer" placeholder="Your answer" required>
+            <button type="submit">Submit Answer</button>
+        </form>
+        <hr>
+    {% endfor %}
+
+    <div class="nav">
+        <a href="/knowledge">View Knowledge Base</a> |
+        <a href="/history">View All Requests</a>
+    </div>
+</body>
+</html>

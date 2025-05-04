@@ -1,0 +1,82 @@
+[
+    {
+        "id": "bcbe2aa3-35c5-4e3d-a6b6-ab40ae2d9bdd",
+        "customer_id": "123",
+        "question": "What's the price of hair coloring?",
+        "status": "Resolved",
+        "answer": "123",
+        "timestamp": "2025-05-03T12:56:24.154067"
+    },
+    {
+        "id": "db70e9e4-aa45-420d-a65d-7251840723cc",
+        "customer_id": "2012",
+        "question": "Its Saumya Jain",
+        "status": "Resolved",
+        "answer": "Hello",
+        "timestamp": "2025-05-03T13:06:40.408026"
+    },
+    {
+        "id": "7b1e459f-3999-43ef-8f6a-acb2486cb233",
+        "customer_id": "2001",
+        "question": "It's my birth year",
+        "status": "Unresolved",
+        "answer": null,
+        "timestamp": "2025-05-03T15:49:22.989563"
+    },
+    {
+        "id": "e301f65a-6c71-4091-81a4-a0b4847a7cd6",
+        "customer_id": "10",
+        "question": "Is salon open on sunday?",
+        "status": "Resolved",
+        "answer": "Yes",
+        "timestamp": "2025-05-03T17:43:15.008099"
+    },
+    {
+        "id": "e2fe1e15-7db2-435c-8d79-c693b5938c41",
+        "customer_id": "123",
+        "question": "Is salon open today?",
+        "status": "Unresolved",
+        "answer": null,
+        "timestamp": "2025-05-04T15:29:10.310320"
+    },
+    {
+        "id": "9ab1f7a0-bd5f-405c-834c-9a27b5667832",
+        "customer_id": "1",
+        "question": "Whats the timing of salon?",
+        "status": "Unresolved",
+        "answer": null,
+        "timestamp": "2025-05-04T17:25:31.491636"
+    },
+    {
+        "id": "292f37c6-8151-453d-811d-ed747212bfe8",
+        "customer_id": "2",
+        "question": "Can I come in eve?",
+        "status": "Resolved",
+        "answer": "Yes",
+        "timestamp": "2025-05-04T17:27:22.760355"
+    },
+    {
+        "id": "70d06437-8095-4ca5-b983-a10df8b8f368",
+        "customer_id": "10",
+        "question": "Can I come in an hour?",
+        "status": "Resolved",
+        "answer": "Yes",
+        "timestamp": "2025-05-04T17:49:56.931684"
+    },
+    {
+        "id": "59d7c2f5-eceb-48a9-9f6e-f5c8c2b3f6d6",
+        "customer_id": "11",
+        "question": "Can I come in an hour?",
+        "status": "Unresolved",
+        "answer": null,
+        "timestamp": "2025-05-04T17:50:18.320666"
+    },
+    {
+        "id": "0b1184d8-3b05-4aa1-9899-3cd4cad0f3f4",
+        "customer_id": "55",
+        "question": "What's the time of opening?",
+        "status": "Resolved",
+        "answer": "9:00 AM",
+        "timestamp": "2025-05-04T18:17:13.079052"
+    }
+]

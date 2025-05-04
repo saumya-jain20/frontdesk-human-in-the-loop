@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Requests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .entry {
+            margin-bottom: 15px;
+        }
+        .entry b {
+            color: #007BFF;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 10px 0;
+        }
+        .nav {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>All Requests</h1>
+
+    {% for req in requests %}
+        <div class="entry">
+            <p><b>{{ req.question }}</b> - {{ req.status }}
+            {% if req.answer %} → {{ req.answer }} {% endif %}
+            (Customer: {{ req.customer_id }})</p>
+            <hr>
+        </div>
+    {% endfor %}
+
+    <div class="nav">
+        <a href="/knowledge">View Knowledge Base</a> |
+        <a href="/">Back to Pending</a>
+    </div>
+</body>
+</html>

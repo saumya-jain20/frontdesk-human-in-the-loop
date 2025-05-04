@@ -1,0 +1,14 @@
+# Byte-compiled / cache
+__pycache__/
+
+# Virtual environment
+.venv/
+
+# OS files
+.DS_Store
+
+# IDE settings
+.vscode/
+
+# Environment variables / secrets
+config.py
